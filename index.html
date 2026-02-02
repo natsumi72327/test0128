@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バレンタインおみくじ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Zen+Maru+Gothic:wght@500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1 class="title">💖 バレンタイン<br>おみくじ 💖</h1>
+        </header>
+
+        <main>
+            <div class="omikuji-box">
+                <div class="heart-decoration top-left"></div>
+                <div class="heart-decoration top-right"></div>
+
+                <div id="result-area" class="result-area hidden">
+                    <div class="result-content">
+                        <p class="congrats-text">✨ 大当たり ✨</p>
+                        <h2 id="result-text" class="result-text"></h2>
+                        <div class="confetti-container"></div>
+                    </div>
+                </div>
+
+                <div id="initial-area" class="initial-area">
+                    <p class="instruction">今日の運勢を占おう！</p>
+                </div>
+
+                <button id="draw-btn" class="draw-btn">くじを引く</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2026 Valentine Omikuji</p>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
