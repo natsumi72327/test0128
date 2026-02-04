@@ -176,9 +176,44 @@ body {
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 40px;
     color: var(--color-secondary);
     font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.presented-by {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.presented-text {
+    font-size: 0.7rem;
+    opacity: 0.8;
+    letter-spacing: 0.05em;
+}
+
+.footer-logo {
+    height: 35px;
+    /* Subtle size */
+    width: auto;
+    /* Blend with background if the logo has a white background */
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.footer-logo:hover {
+    opacity: 1;
+}
+
+.copyright {
+    margin-top: 5px;
 }
 
 /* Confetti Animation */
