@@ -1,0 +1,19 @@
+{
+  "name": "鍼灸 治療引き出し",
+  "short_name": "鍼灸引き出し",
+  "description": "症状別・概念別に鍼灸治療メモを整理するツール",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ff0f7a",
+  "theme_color": "#ff0f7a",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
