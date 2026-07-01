@@ -1,7 +1,7 @@
 {
-  "name": "鍼灸 治療引き出し",
-  "short_name": "鍼灸引き出し",
-  "description": "症状別・概念別に鍼灸治療メモを整理するツール",
+  "name": "頭のなかのメモ帳達📚",
+  "short_name": "メモ帳達",
+  "description": "症状別・概念別にメモを整理するツール",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -10,9 +10,9 @@
   "lang": "ja",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "girl.png",
       "sizes": "any",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]

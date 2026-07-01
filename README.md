@@ -1,4 +1,4 @@
-# 鍼灸 治療引き出し PWA
+# 頭のなかのメモ帳達📚 PWA
 
 このフォルダの中身をそのままGitHub Pagesにアップロードしてください。
 
@@ -7,7 +7,7 @@
 - index.html
 - manifest.json
 - service-worker.js
-- icon.svg
+- girl.png
 
 ## GitHub Pagesで公開する流れ
 
